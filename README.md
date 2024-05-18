@@ -13,6 +13,6 @@ Basic js enhancement for browser popover API
 ```
 
 ```js
-    import init as nativePopoverInit from "native-popover";
-    window.addEventListener("DOMContentLoaded", nativePopoverInit);
+import init as nativePopoverInit from "native-popover";
+window.addEventListener("DOMContentLoaded", nativePopoverInit);
 ```
