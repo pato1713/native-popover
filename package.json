@@ -1,0 +1,17 @@
+{
+  "name": "native-popover",
+  "version": "1.0.0",
+  "description": "Basic vanilla js enhancement for native popover",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "popover",
+    "popover-api",
+    "native-popover",
+    "browser"
+  ],
+  "author": "Patryk Rajpold",
+  "license": "MIT"
+}
