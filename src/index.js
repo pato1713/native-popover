@@ -14,7 +14,7 @@ class Popover {
         this.popover.style.setProperty("margin", "0");
         this.popover.style.setProperty("visibility", "hidden");
         this.popover.addEventListener("toggle", this.toggleHandler.bind(this))
-        this.popover.addEventListener("beforetoggle", this.beforeToggleHandler(this));
+        this.popover.addEventListener("beforetoggle", this.beforeToggleHandler.bind(this));
     }
 
     toggleHandler() {

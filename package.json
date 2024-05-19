@@ -1,10 +1,24 @@
 {
   "name": "native-popover",
   "version": "1.0.1",
+  "type": "module",
   "description": "Basic vanilla js enhancement for native popover",
-  "main": "index.js",
+  "author": "Patryk Rajpold",
+  "license": "MIT",
+  "source": "src/index.js",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
   },
   "keywords": [
     "popover",
@@ -12,6 +26,15 @@
     "native-popover",
     "browser"
   ],
-  "author": "Patryk Rajpold",
-  "license": "MIT"
+  "homepage": "https://github.com/pato1713/native-popover",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pato1713/native-popover"
+  },
+  "bugs": {
+    "url": "https://github.com/pato1713/native-popover/issues"
+  },
+  "files": [
+    "dist"
+  ]
 }
