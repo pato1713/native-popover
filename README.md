@@ -25,8 +25,8 @@ Available values:
 ## Example
 ```html
 <body>
-    <button popovertarget="mypopover" data-position="bottom-right">OPEN POPOVER</button>
-    <div id="mypopover" popover>
+    <button popovertarget="mypopover">OPEN POPOVER</button>
+    <div id="mypopover" popover data-position="bottom-right">
         POPOVER BODY
     </div>
 </body>
