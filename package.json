@@ -35,6 +35,8 @@
     "url": "https://github.com/pato1713/native-popover/issues"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LINCENSE"
   ]
 }
