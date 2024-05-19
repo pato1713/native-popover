@@ -1,6 +1,6 @@
 {
   "name": "native-popover",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "type": "module",
   "description": "Basic vanilla js enhancement for native popover",
   "author": "Patryk Rajpold",
