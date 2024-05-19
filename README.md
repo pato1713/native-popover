@@ -1,5 +1,5 @@
 # native-popover
-Basic js enhancement for [browser popover API](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API). 
+No dependencies, basic vanilla js enhancement for [browser popover API](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API). 
 
 
 - [Installation](#installation)
